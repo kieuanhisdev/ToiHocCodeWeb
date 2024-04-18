@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bai tap bai 3</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        <h2>Cau 1: Tao form Dang ky tai khoan</h2>
+        <p><strong>Yeu cau:</strong> Tao form <b>Dang ky tai khoan</b> nhu ben duoi</p>
+
+        <form action="">
+            <label for="userName">Ho ten:</label>
+            <br>
+            <input id="userName" name="ten" type="text" placeholder="Vi du: levana">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email" placeholder="vi du: lenava@gmail.com">
+            <br>
+            <label for="passWorld">Mat khau:</label>
+            <br>
+            <input type="text" name="mkhau" id="passWorld">
+            <br><br>
+            <button>Dang ky</button>
+        </form>
+
+        <h2>Cau 2: Tao form Dang ky chi tiet</h2>
+        <p><strong>Yeu cau</strong>: Tao form <b>Dang ky chi tiet</b> nhu ben duoi.</p>
+
+        <form action="">
+            <label for="userName">Ho ten:</label>
+            <br>
+            <input id="userName" name="ten" type="text">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="passWorld">Mat khau:</label>
+            <br>
+            <input type="text" name="mkhau" id="passWorld">
+            <br>
+            <label for="rePassWorld">Xac nhan mat khau:</label>
+            <br>
+            <input type="text" name="rePassWorld" id="rePassWorld">
+            <br>
+            <label for="">Gioi tinh</label>
+            <br>
+            <input type="radio" id="nam" name="gioitinh"> <label for="nam">Nam</label>
+            <br>
+            <input type="radio" id="nu" name="gioitinh"> <label for="nu">Nu</label>
+            <br>
+            <input type="radio" id="khac" name="gioitinh"> <label for="khac">Khac</label>
+            <br>
+            <label for="quocgia">Quoc gia:</label>
+            <br>
+            <select name="quocgia" id="quocgia">
+                <option value="vietnam">Viet Nam</option>
+                <option value="thailan">Thai Lan</option>
+                <option value="nhatban">Nhat Ban</option>
+            </select>
+            <br><br>
+            <button>Dang ky</button>
+        </form>
+
+        <h2>Cau 3: Tao form Dang gia san pham</h2>
+        <p><strong>Yeu cau:</strong> Tao form <b>Danh gia san pham</b> nhu ben duoi.</p>
+        <form action="">
+            <label for="namSp">Ten san pham</label>
+            <br>
+            <input type="text" name="tenSP" id="namSp">
+            <br>
+            <label for="danhGia">Danh gia</label>
+            <br>
+            <input type="radio" value="5sao" name="danhGia" id="fiveStar"> <label for="fiveStar">5 sao</label>
+            <br>
+            <input type="radio" value="4sao" name="danhGia" id="fourStar"> <label for="fourStar">4 sao</label>
+            <br>
+            <input type="radio" value="3sao" name="danhGia" id="threeStar"> <label for="threeStar">3 sao</label>
+            <br>
+            <input type="radio" value="2sao" name="danhGia" id="twoStar"> <label for="twoStar">2 sao</label>
+            <br>
+            <input type="radio" value="1sao" name="danhGia" id="oneStar"> <label for="oneStar">1 sao</label>
+            <br>
+            <label for="binhLuat">Binh luan:</label>
+            <br>
+            <textarea name="comment" id="binhLuat" cols="20" rows="5"></textarea>
+            <br>
+            <br>
+            <button>Gui danh gia</button>
+        </form>
+
+        <h2>Cau 4: Tao form Lien he</h2>
+        <p><strong>Yeu cau: Tao form <b>Lien he</b> nhu ben duoi.</strong></p>
+        <form action="">
+            <label for="userName">Ho ten:</label>
+            <br>
+            <input id="userName" name="ten" type="text">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="message">Noi dung tin nhan</label>
+            <br>
+            <textarea name="message" id="message" cols="20" rows="5"></textarea>
+            <br><br>
+            <button>Gui tin nhan</button>
+        </form>
+
+        <h2>Cau 5: Tao form Dat phong khach san</h2>
+        <p><strong>Yeu cau</strong>: Tao form <b>Dat phong khach san</b> nhu ben duoi.</p>
+        <form action="">
+            <label for="userName">Ho ten:</label>
+            <br>
+            <input id="userName" name="ten" type="text">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="inDate">Ngay nhan phong</label>
+            <br>
+            <input type="date" name="ngayNhan" id="inDate">
+            <br>
+            <label for="outDate">Ngay tra phong</label>
+            <br>
+            <input type="date" name="ngayTra" id="outDate">
+            <br>
+            <label for="loaiPhong">Loai phong</label>
+            <br>
+            <select name="loaiPhong" id="loaiPhong">
+                <option value="PhongThuong">Phong Thuong</option>
+                <option value="PhongVIP">Phong VIP</option>
+                <option value="PhongGiaDinh">Phong Gia Dinh</option>
+            </select>
+            <br>
+            <label for="yeucau">Yeu cau dac biet</label>
+            <br>
+            <textarea name="yeucau" id="yeucau" cols="20" rows="5"></textarea>
+            <br><br>
+        </form>
+
+        <h2>Cau 6: Tao form Tim kiem</h2>
+        <p><strong>Yeu cau:</strong> Tao form <b>Tim kiem</b> nhu bien duoi.</p>
+        <form action="">
+            <input type="text" name="search" id="" placeholder="Nhap tu khoa...">
+            <button>tim kiem</button>
+        </form>
+
+        <script src="" async defer></script>
+    </body>
+</html>
