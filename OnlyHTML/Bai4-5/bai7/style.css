@@ -1,0 +1,23 @@
+
+
+td, th {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+
+}
+
+table {
+    border-collapse: collapse ;
+}
+
+th {
+    background-color: orange;
+}
+
+tr:nth-child(2n) {
+    background-color: #f6f6f6;
+}
+
+tr:hover{
+    background-color: #ececec;
+}

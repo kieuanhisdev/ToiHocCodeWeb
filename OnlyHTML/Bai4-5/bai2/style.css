@@ -1,0 +1,24 @@
+button {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 90px;
+    border: 2px solid #e6e3f1;
+    color: #192335;
+}
+
+#button1, #button2:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+#button3 {
+    background-color: rgb(43, 187, 43);
+    color: #fff;
+}
+
+#button3:hover{
+    background-color: green;
+}
