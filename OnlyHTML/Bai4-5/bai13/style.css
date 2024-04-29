@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.login, .register {
+    font-family: "Be Vietnam Pro", sans-serif;
+    border: 1px solid #eeeeee;
+    width: 550px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+ button:hover {
+    background-color: #4e4545;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #192335;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+input {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+input[type="checkbox"] {
+    width: auto;
+    height: auto;
+  }
+
+button {
+    width: 100%;
+      height: 60px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      background-color: #525fe1;
+      border: 0;
+      border-radius: 8px;
+}
